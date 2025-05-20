@@ -1,4 +1,9 @@
 .MainTopic{
     margin-top: 300px;
     text-align: center;
+    font-size: 72px;
+}
+.StartButton{
+    margin-top: 50px;
+    text-align: center;
 }
