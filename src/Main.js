@@ -1,4 +1,4 @@
-// pages/Home.jsx
+// Home page
 import './Main.css'
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -11,7 +11,6 @@ function Main() {
   const handleClick = () => {
     navigate('/Service'); // 點擊後跳轉
   };
-
   return (
     <ChakraProvider theme={customTheme}>
         <div className='MainTopic'>
@@ -20,7 +19,7 @@ function Main() {
         <div className='StartButton'>
           <Button onClick={handleClick}>Start Service</Button>
         </div>
-    </ChakraProvider>
+    </ChakraProvider> 
   );
 }
 
