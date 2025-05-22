@@ -34,7 +34,7 @@ const customTheme = extendTheme(
     styles
   },
   withDefaultColorScheme({
-    colorScheme: 'blue',
+    colorScheme: 'gray',
     components: ['Button'], // 指定哪些元件使用預設色系
   })
 );

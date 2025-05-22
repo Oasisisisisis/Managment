@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Main />} /> {/* 預設首頁 */}
         <Route path="/Main" element={<Main />} />
         <Route path="/Service" element={<Service />} />
         <Route path="/Dispatch" element={<Dispatch />} />
