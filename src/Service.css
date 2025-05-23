@@ -1,19 +1,25 @@
 .serviceContainer {
   background-color: #474040;
   border-radius: 12px;
-  max-width: 1700px;
-  height: 850px;
+  max-width: 1400px;
+  height: 750px;
   align-self: flex-start;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
-.serviceTitle h1 {
-  font-size: 32px;
-  font-weight: bold;
+.serviceTitle {
+  font-size: 24px;
+  font-weight: bolder;
   text-align: left;
   color: #ffffff;
+  background: rgb(230, 149, 0);
+  border-radius: 12px;
+  max-width: 100%; /* ✅ 你可以依需要調整寬度，例如 500px、80% 等 */
+  padding: 12px 20px; /* 建議加點內距讓圓角更漂亮 */
+  margin-top: 2px;
 }
+
 
 .function {
   display: flex;
